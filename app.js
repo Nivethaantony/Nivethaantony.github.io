@@ -37,6 +37,14 @@ a=x.slice(1,-1);
 b=x.slice(-3,-2);
 console.log(y,z,a,b);*/
 
-var x=[10,23,56,78,34];
+/*          7)  var x=[10,23,56,78,34];
 var y=x;
-console.log(y.sort());
+console.log(y.sort());*/
+
+var x=[1,2,3,4,5];
+var y=x;
+y=x.splice(0,1);
+ 
+console.log(y);
+// x.splice(2,0,20));
+// x.splice(2,2,25));
