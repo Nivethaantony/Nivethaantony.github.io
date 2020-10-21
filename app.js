@@ -52,8 +52,49 @@ console.log(y);
 /*            9) var x=[1,4,7,6,2,3];
 console.log(x.toString());*/
 
-var x=[1,4,7,3,9,6];
+/*             10)  var x=[1,4,7,3,9,6];
 var y;
 y=x.valueOf();
- console.log(y);
+ console.log(y);*/
+
+
+
+ //Kangaroo program
+
+ var x1=3;
+ var x2=0;
+ var v1=1;
+ var v2=2;
+ var a,b;
+ while(x1!=x2)
+{
+ if ( (x1<x2 && v1<v2)||(x1>x2 && v1>v2)) 
+ {
+     console.log("No");
+     
+ } else if(x1<x2 && v1>v2)
+ 
+ {
+   a=x2;
+   b=x1;
+   if((a-b)>0) 
+   {
+       console.log("Infinity");
+   }
+ }
+ else
+ {
+a=x1;
+b=x2;
+if((a-b)<0)
+{
+    console.log("Infinity");
+}
+ }
+ x1=x1+v1;
+ x2=x2+v2;
+}
+console.log("Yes");
+     
+ 
  
