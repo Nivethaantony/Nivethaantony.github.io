@@ -15,9 +15,15 @@ var y=x.join();
 var z=x.join("*");
 var a=x.join("@");
 console.log(y,z,a);*/
-var x=[4,2,5,1,4,1,3];
+
+
+/*        4)    var x=[4,2,5,1,4,1,3];
 var y,z,a;
 y=x.lastIndexOf(1);
 z=x.lastIndexOf(1,4);
 a=x.lastIndexOf(1,2);
-console.log(y,z,a);
+console.log(y,z,a);*/
+
+var x=[1,5,7,2,9];
+var y=x;
+console.log(y.reverse());
