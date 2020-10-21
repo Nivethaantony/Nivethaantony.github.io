@@ -41,10 +41,13 @@ console.log(y,z,a,b);*/
 var y=x;
 console.log(y.sort());*/
 
-var x=[1,2,3,4,5];
+/*           8)   var x=[1,2,3,4,5];
 var y=x;
 y=x.splice(0,1);
  
 console.log(y);
 // x.splice(2,0,20));
-// x.splice(2,2,25));
+// x.splice(2,2,25));*/
+
+var x=[1,4,7,6,2,3];
+console.log(x.toString());
