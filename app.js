@@ -24,6 +24,15 @@ z=x.lastIndexOf(1,4);
 a=x.lastIndexOf(1,2);
 console.log(y,z,a);*/
 
-var x=[1,5,7,2,9];
+/*        5)    var x=[1,5,7,2,9];
 var y=x;
-console.log(y.reverse());
+console.log(y.reverse());*/
+
+
+var x=[1,2,3,4,5];
+var y,z,a,b;
+y=x.slice(0,3);
+z=x.slice(3);
+a=x.slice(1,-1);
+b=x.slice(-3,-2);
+console.log(y,z,a,b);
