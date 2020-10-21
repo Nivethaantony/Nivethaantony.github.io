@@ -29,10 +29,14 @@ var y=x;
 console.log(y.reverse());*/
 
 
-var x=[1,2,3,4,5];
+/*        6)   var x=[1,2,3,4,5];
 var y,z,a,b;
 y=x.slice(0,3);
 z=x.slice(3);
 a=x.slice(1,-1);
 b=x.slice(-3,-2);
-console.log(y,z,a,b);
+console.log(y,z,a,b);*/
+
+var x=[10,23,56,78,34];
+var y=x;
+console.log(y.sort());
