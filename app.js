@@ -49,5 +49,11 @@ console.log(y);
 // x.splice(2,0,20));
 // x.splice(2,2,25));*/
 
-var x=[1,4,7,6,2,3];
-console.log(x.toString());
+/*            9) var x=[1,4,7,6,2,3];
+console.log(x.toString());*/
+
+var x=[1,4,7,3,9,6];
+var y;
+y=x.valueOf();
+ console.log(y);
+ 
